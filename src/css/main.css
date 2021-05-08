@@ -26,7 +26,12 @@ body {
 header {
   height: 10%;
   width: 100%;
-  background: brown;
+  background: linear-gradient(
+    to top left,
+    rgb(231, 80, 118),
+    rgb(231, 175, 90),
+    rgb(214, 207, 207)
+  );
 }
 .__nav {
   display: flex;
@@ -39,10 +44,14 @@ header {
 .tabs {
   height: 100%;
   width: 100%;
-  background: chartreuse;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+.tabs:hover {
+  background: rgba(158, 105, 36, 0.3);
 }
 /* ---------------Main-------------------- */
 /* ---------------Main-------------------- */
@@ -52,11 +61,32 @@ main {
   width: 100%;
   background: cadetblue;
 }
+.main__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.__left {
+  background-image: url("../images/167472341_10220312668308655_7564205603169139243_n.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 60%;
+}
+.__right {
+  background: brown;
+  height: 100%;
+  width: 40%;
+}
 /* ---------------Footer-------------------- */
 /* ---------------Footer-------------------- */
 /* ---------------Footer-------------------- */
 footer {
   height: 10%;
   width: 100%;
-  background: chartreuse;
+  background: coral;
 }
