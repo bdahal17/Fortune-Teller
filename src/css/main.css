@@ -19,16 +19,42 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+/* ---------------HEADER-------------------- */
+/* ---------------HEADER-------------------- */
+/* ---------------HEADER-------------------- */
 header {
-  height: 20%;
+  height: 10%;
   width: 100%;
   background: brown;
 }
+.__nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+.tabs {
+  height: 100%;
+  width: 100%;
+  background: chartreuse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ---------------Main-------------------- */
+/* ---------------Main-------------------- */
+/* ---------------Main-------------------- */
 main {
-  height: 70%;
+  height: 80%;
   width: 100%;
   background: cadetblue;
 }
+/* ---------------Footer-------------------- */
+/* ---------------Footer-------------------- */
+/* ---------------Footer-------------------- */
 footer {
   height: 10%;
   width: 100%;
