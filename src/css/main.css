@@ -67,21 +67,55 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px;
 }
-.__left {
-  background-image: url("../images/167472341_10220312668308655_7564205603169139243_n.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 60%;
-}
-.__right {
+/* ---------------Home-------------------- */
+.home__container {
   background: brown;
   height: 100%;
-  width: 40%;
+  width: 100%;
+  padding: 100px;
 }
+.home__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.home__main__left {
+  background: url("../images/167472341_10220312668308655_7564205603169139243_n.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 70%;
+}
+.home__main__right {
+  background: rgb(0, 89, 255);
+  height: 100%;
+  width: 30%;
+}
+/* ---------------Questionnaire-------------------- */
+.questionnaire__container {
+  background: rgb(165, 153, 42);
+  height: 100%;
+  width: 100%;
+}
+/* ---------------Gallery-------------------- */
+.gallery__container {
+  background: rgb(42, 165, 73);
+  height: 100%;
+  width: 100%;
+}
+/* ---------------About Us-------------------- */
+.about__us__container {
+  background: rgb(75, 161, 150);
+  height: 100%;
+  width: 100%;
+}
+
+/* ---------------Questionnaire-------------------- */
+/* ---------------Gallery-------------------- */
+/* ---------------About Us-------------------- */
 /* ---------------Footer-------------------- */
 /* ---------------Footer-------------------- */
 /* ---------------Footer-------------------- */
